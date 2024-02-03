@@ -32,3 +32,18 @@ print(var1)
 
 
 # HW3 ex6
+age = 25
+if age < 18:
+    print("Вы несовершеннолетний.")
+elif 18 <= age < 65:
+    print("Вы взрослый.")
+else:
+    print("Вы пожилой человек.")
+
+# ex6 var2
+age1 = 55
+ret = 65 - age1
+if ret < 10:
+    print("Пора на пенсию")
+else:
+    print("Рано на пенсию")
